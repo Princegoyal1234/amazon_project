@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 4rem;
+        }
+        .about, .projects, .contact {
+            text-align: center;
+        }
+        .about h2, .projects h2, .contact h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .about h2::after, .projects h2::after, .contact h2::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background: #007BFF;
+            display: block;
+            margin: 0.5rem auto 0;
+        }
+        .about p, .projects p, .contact p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-top: 1rem;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .projects .project {
+            background: #fff;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-width: 800px;
+        }
+        .projects .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .projects .project h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+            font-size: 1rem;
+        }
+        footer p a {
+            color: #4facfe;
+            text-decoration: none;
+        }
+        footer p a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 1rem 0;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prince Goyal</h1>
+        <p>BTech Student | Data Science Enthusiast | Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="portfile.png" alt="Prince Goyal">
+            <p>Hi! I'm Prince Goyal, a BTech student passionate about solving real-world problems with data science and web development. I strive to build efficient, scalable, and user-friendly applications.</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my skills and projects, built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Data Analysis Dashboard</h3>
+                <p>Developed an interactive dashboard using Python and Dash to visualize large datasets effectively.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: E-commerce Website</h3>
+                <p>Created a fully functional e-commerce platform using React.js and Firebase for seamless user experience.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: princegoyal1704@gmail.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/princegoyal" target="_blank">linkedin.com/in/princegoyal</a></p>
+            <p>GitHub: <a href="https://github.com/princegoyal" target="_blank">github.com/princegoyal</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Prince Goyal. All Rights Reserved. | Built with <a href="#">❤</a></p>
+    </footer>
+</body>
+</html>
