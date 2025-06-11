@@ -1,0 +1,22 @@
+0000000000000000000000000000000000000000 bf1f294d61bb824db4c2ad3c2ca4825d04851ba4 princegoyal <princegoyal1704@gmail.com> 1723272159 +0530	commit (initial): Add the s tarting files
+bf1f294d61bb824db4c2ad3c2ca4825d04851ba4 8be59d8d621988fdc88b4c99198b159ef22fa10b princegoyal <princegoyal1704@gmail.com> 1723354719 +0530	commit: Generate html with javascript
+8be59d8d621988fdc88b4c99198b159ef22fa10b 2e2cecf78d89a2d734319a95e32ffe32ae10d548 princegoyal <princegoyal1704@gmail.com> 1723356840 +0530	commit: use product.js file
+2e2cecf78d89a2d734319a95e32ffe32ae10d548 0b2ca0ade227e24cbf518f4942327122d440c5f2 princegoyal <princegoyal1704@gmail.com> 1723361818 +0530	commit: make add to cart button interactive
+0b2ca0ade227e24cbf518f4942327122d440c5f2 c298eba31cfe798e09d55bb1c966143dab7e71e6 princegoyal <princegoyal1704@gmail.com> 1723430909 +0530	commit: changes all to use cart quantity
+c298eba31cfe798e09d55bb1c966143dab7e71e6 552a472e4af5c4cf41b223adfc56f1884fda727c princegoyal <princegoyal1704@gmail.com> 1723431492 +0530	commit: import product from product.js
+552a472e4af5c4cf41b223adfc56f1884fda727c 8f6b6d6d606cb807e5786800bb53a35d20c0338a princegoyal <princegoyal1704@gmail.com> 1723435646 +0530	commit: put amazon.js in script folder
+8f6b6d6d606cb807e5786800bb53a35d20c0338a 588b03da02dc87b119c52112ba992a8e11c18724 princegoyal <princegoyal1704@gmail.com> 1723435779 +0530	commit: delete the amazon.js from the data main folder
+588b03da02dc87b119c52112ba992a8e11c18724 dab3255ff7b4b56d0167d499646cc79f0d3433f0 princegoyal <princegoyal1704@gmail.com> 1723717731 +0530	commit: changes in all
+dab3255ff7b4b56d0167d499646cc79f0d3433f0 04d5757300bf34eb120a83e56af7f19d2fe56b2e princegoyal <princegoyal1704@gmail.com> 1723723680 +0530	commit: changes on utils
+04d5757300bf34eb120a83e56af7f19d2fe56b2e 7544834be196e0190dec6c6e0fa67b2095db8577 princegoyal <princegoyal1704@gmail.com> 1723726302 +0530	commit: changes in amzone.js
+7544834be196e0190dec6c6e0fa67b2095db8577 b18ff79961a4e18a804b43fd0843f4710399224a princegoyal <princegoyal1704@gmail.com> 1723726492 +0530	commit: changes in checkout
+b18ff79961a4e18a804b43fd0843f4710399224a 6476fb2851b5e40dc0008d72786b5bd5df89f947 princegoyal <princegoyal1704@gmail.com> 1723726613 +0530	commit: changes in checkout.js
+6476fb2851b5e40dc0008d72786b5bd5df89f947 ae56c46056191991af43fd30523b7da9ce70ef6d princegoyal <princegoyal1704@gmail.com> 1723726811 +0530	commit: remove delete from cart when save it
+ae56c46056191991af43fd30523b7da9ce70ef6d ae5249867ef582b3aae8fb4b7d6d0e266b6a2abf princegoyal <princegoyal1704@gmail.com> 1723783309 +0530	commit: remove product from cart when click delete
+ae5249867ef582b3aae8fb4b7d6d0e266b6a2abf 6690f3c654dcf653821295c5d2c7e89759352752 princegoyal <princegoyal1704@gmail.com> 1724164098 +0530	commit: change in checkout.js
+6690f3c654dcf653821295c5d2c7e89759352752 db0ccf6e34d071f3b5acdd7262c623ae54661d7a princegoyal <princegoyal1704@gmail.com> 1724493935 +0530	commit: change are done
+db0ccf6e34d071f3b5acdd7262c623ae54661d7a e053c0b5f4153f3b3da9b2b15b7cfc4e3faaafc5 princegoyal <princegoyal1704@gmail.com> 1724591641 +0530	commit: savedata and genrate html
+e053c0b5f4153f3b3da9b2b15b7cfc4e3faaafc5 cda2ff8b90225c9a497de5eccf23646a24f2c5eb princegoyal <princegoyal1704@gmail.com> 1724594441 +0530	commit: moveordersummary into file
+cda2ff8b90225c9a497de5eccf23646a24f2c5eb 3859211fb7eb40487a9296a271f459013c0413f5 princegoyal <princegoyal1704@gmail.com> 1724671638 +0530	commit: save all
+3859211fb7eb40487a9296a271f459013c0413f5 1a8af1d4bd2210f2db0556084e00416178994285 princegoyal <princegoyal1704@gmail.com> 1724672196 +0530	commit: Add testing framework
+1a8af1d4bd2210f2db0556084e00416178994285 be3e35410c77e81fb2ea2a6f1f902e04118a5e42 princegoyal <princegoyal1704@gmail.com> 1724674885 +0530	commit: remove default test and money test
